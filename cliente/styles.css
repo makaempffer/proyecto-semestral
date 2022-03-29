@@ -1,4 +1,16 @@
 body
 {
-  color:#15eb72  
+  background-color: #15EB72;;
+}
+
+#registerTitle
+{
+  text-align: center;
+}
+
+.registro
+{
+  width: auto;
+  height: 100vh;
+  background-color: #65a72c;
 }
