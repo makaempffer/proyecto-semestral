@@ -1,0 +1,25 @@
+body 
+{
+    background-color: #15EB72;
+}
+
+.imagenInicio
+{
+    width: auto;
+    height: 150px;
+    background-color: white;
+}
+
+.navigator
+{
+
+}
+
+.producto-perro
+{
+    background-color: burlywood;
+    height: 40vh;
+    width: 20%;
+    border-color: black;
+    border-style:double;
+}
