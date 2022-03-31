@@ -1,16 +1,44 @@
 body
 {
-  background-color: #15EB72;;
+    background-color: #15EB72;
 }
 
-#registerTitle
+.background-page
 {
-  text-align: center;
+    background-color: transparent;
+    width: auto;
+    height: 100vh;
+}
+.user-log-title
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: none;
+    font-weight: bold;
 }
 
-.registro
+.data-container
 {
-  width: auto;
-  height: 100vh;
-  background-color: #65a72c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 70vh;
+    width: 50%;
+    background-color: beige;
+    margin-top: 0px;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.list-option
+{
+    list-style: none;
+}
+
+.input-option
+{
+    border-radius: 15px;
+    margin :auto;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
 }
