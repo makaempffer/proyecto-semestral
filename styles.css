@@ -1,6 +1,6 @@
 body 
 {
-    background-color: #15EB72;
+    background-color:#1c485e;
 }
 
 .imagenInicio
@@ -10,7 +10,20 @@ body
     background-color: white;
 }
 
-.navigator
+.menu
 {
+    width: auto;
+    background-color: green;
+}
 
+.menu-item
+{
+    margin-left: auto ;
+    margin-right: auto;
+    text-decoration: none;
+    color:black;
+}
+#menu-bg
+{
+    background-color:#15748f;
 }
