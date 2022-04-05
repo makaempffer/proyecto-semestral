@@ -1,6 +1,6 @@
 body 
 {
-    background-color: #15EB72;
+    background-color: #1c485e;
 }
 
 .imagenInicio
@@ -10,16 +10,25 @@ body
     background-color: white;
 }
 
-.navigator
+.producto-item
 {
-
-}
-
-.producto-perro
-{
+    margin-right: 10px;
+    margin-bottom: 10px;
     background-color: burlywood;
     height: 40vh;
     width: 20%;
     border-color: black;
     border-style:double;
+}
+
+.menu-item
+{
+    margin-left: auto ;
+    margin-right: auto;
+    text-decoration: none;
+    color:black;
+}
+#menu-bg
+{
+    background-color:#15748f;
 }
