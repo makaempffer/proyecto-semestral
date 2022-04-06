@@ -10,13 +10,31 @@
     <title>Proyecto</title>
 </head>
 <body>
-    <div class="container">
-        <div class="imagenInicio">
-            <img class= "fondoMenu" src = "img/mascotas.jpg" alt = "Imagen de mascotas"> 
-            <a class="menu-item" href="menu-item">Iniciar seción</a> 
-            <a class="menu-item" href="menu-item">/ Registrate</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light barra">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TIENDA DE MASCOTAS</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cliente
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                  <li><a class="dropdown-item" href="#">Registrate</a></li>
+                  <li><a class="dropdown-item" href="#">Seguir pedido</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
 
         <div class="container cuerpo">
 

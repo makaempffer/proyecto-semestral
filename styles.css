@@ -5,15 +5,19 @@ body
     background-repeat: repeat;
 }
 
-a {
+a
+{
     color: snow;
     text-decoration: none; /* no underline */
-  }
+}
 
-.imagenInicio
-{
-    width: auto;
-    height: auto;
+li {
+    color: snow;
+}
+
+.barra {
+    background-color: #48BFE3;
+    color: snow;
 }
 
 .menu
@@ -64,8 +68,12 @@ a {
     height: 56px;
 }
 
+.cuerpo {
+    padding-top: 32px;
+}
+
 #categorias-cuerpo {
-    background-color: #56CFE1;
+    background-color: rgba(0,0,0,0);
 }
 
 .categorias-lista {
