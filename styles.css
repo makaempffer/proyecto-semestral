@@ -1,6 +1,8 @@
 body 
 {
     background-color:#56CFE1;
+    background-image: url("img/mosaico.png");
+    background-repeat: repeat;
 }
 
 a {
