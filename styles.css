@@ -36,6 +36,7 @@ body
 .contenido-cuerpo {
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 150px;
     background-color: #48BFE3;
     border-radius: 12px;
@@ -44,4 +45,14 @@ body
 
 .contenido-cuerpo-hijo {
     text-align: center;
+}
+
+.cuerpo-rrss {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-rrss {
+    width: 56px;
+    height: 56px;
 }
