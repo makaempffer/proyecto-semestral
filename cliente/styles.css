@@ -1,6 +1,9 @@
-body
+body 
 {
-    background-color: #15EB72;
+    background-color:#56CFE1;
+    /* Fondo de mosaico patitas */
+    background-image: url("../img/mosaico.png");
+    background-repeat: repeat;
 }
 
 .background-page
