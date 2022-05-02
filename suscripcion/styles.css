@@ -1,0 +1,91 @@
+body 
+{
+    background-color:#56CFE1;
+    /* Fondo de mosaico patitas */
+    background-image: url("img/mosaico.png");
+    background-repeat: repeat;
+}
+
+a
+{
+    /* Quitar la decoración del texto*/
+    color: snow;
+    text-decoration: none; /* no underline */
+}
+
+.barra 
+{
+    background-color: #48BFE3;
+    color: snow;
+}
+
+.contenido-cuerpo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    background-color: #48BFE3;
+    border-radius: 12px;
+    color: snow;
+}
+
+.contenido-cuerpo-hijo
+{
+    text-align: center;
+}
+
+.cuerpo-rrss 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-rrss 
+{
+    width: 56px;
+    height: 56px;
+}
+
+.cuerpo 
+{
+    padding-top: 32px;
+}
+
+#categorias-cuerpo 
+{
+    background-color: rgba(0,0,0,0);
+}
+
+.categorias-lista 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categoria 
+{
+    display: flex;
+    width: 45%;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    border-width: 6px;
+    border-style: double;
+    border-color: snow;
+}
+
+.categoria-perro 
+{
+    background-color: orangered;
+}
+
+.categoria-gato 
+{
+    background-color: #6930C3;
+}
