@@ -70,7 +70,7 @@ a
 {
     display: flex;
     width: 45%;
-    height: 150px;
+    height: 325px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -78,6 +78,9 @@ a
     border-width: 6px;
     border-style: double;
     border-color: snow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .categoria-perro 

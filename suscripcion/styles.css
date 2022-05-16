@@ -2,7 +2,7 @@ body
 {
     background-color:#56CFE1;
     /* Fondo de mosaico patitas */
-    background-image: url("img/mosaico.png");
+    background-image: url("../img/mosaico.png");
     background-repeat: repeat;
 }
 
