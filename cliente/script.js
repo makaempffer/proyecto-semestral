@@ -1,3 +1,6 @@
+var accounts = ["test@email.com", "ejemplo@email.com"];
+var passwords = ["123123", "321321"]
+
 function registerUser()
 {
 
@@ -14,4 +17,17 @@ function registerUser()
         alert("Las contraseñas deben coincidir.");
     }
 
+}
+
+function loginUser()
+{
+    var email = document.getElementById('login-email');
+    var password = document.getElementById('login-password');
+    if (accounts.includes(email.value) && passwords.includes(password.value))
+    {
+        alert("Inicio aceptado!.")
+    } else 
+    {
+        alert("Porfavor intente registrarse o ingresar bien los datos.")
+    }
 }
