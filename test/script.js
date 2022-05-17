@@ -1,3 +1,4 @@
+var cargados = false;
 const productInfo = 
 {
     "products": 
@@ -39,22 +40,29 @@ const productInfo =
 
 function fillProducts() 
 {
-    var count = 0;
-    for (var product in productInfo["products"])
+    if (cargados == false)
     {
-
-    $("#product-table").append(
+        var count = 0;
+        for (var product in productInfo["products"])
+        {
     
-        "<td>" + "<div class='product-container'>" +
-        "<h3 class='product-name'>" + productInfo["products"][count]["product_name"] + "</h3>"+
-        "<p class='product-desc'>" + productInfo["products"][count]["product_desc"] + "</p>"+
-        "<img class='product-img' src="+ "'"+ productInfo["products"][count]["product_link"] +"'"+" alt='Rata'>"+
-        "<p class='product-precio'>" + productInfo["products"][count]["product_price"] + "</p>"+
-        "<button class='btn btn-info'>Añadir al carrito</button></div>" 
-        + "</td>" 
-    )
-
-
-    count++;
+            $("#product-table").append(
+            
+                "<td>" + "<div class='product-container'>" +
+                "<h3 class='product-name'>" + productInfo["products"][count]["product_name"] + "</h3>"+
+                "<p class='product-desc'>" + productInfo["products"][count]["product_desc"] + "</p>"+
+                "<img class='product-img' src="+ "'"+ productInfo["products"][count]["product_link"] +"'"+" alt='Rata'>"+
+                "<p class='product-precio'>" + productInfo["products"][count]["product_price"] + "</p>"+
+                "<button class='btn btn-info'>Añadir al carrito</button></div>" 
+                + "</td>" 
+            )
+        
+        
+            count++;
+        }
+        cargados = true
+    } else {
+        alert("Productos cargados.")
     }
+    
 }
