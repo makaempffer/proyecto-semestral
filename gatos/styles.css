@@ -1,9 +1,4 @@
 
-.producto-wrapper
-{
-    width: 80%;
-    padding-left: 20%;
-}
 .imagenInicio
 {
     width: auto;
@@ -11,40 +6,55 @@
     background-color: white;
 }
 /* Clases productos */
-.producto-icono
+
+.products
 {
-    margin-top: 0px;
-}
-.producto-texto
-{
-    height: 0px;
-}
-.producto-imagen
-{
-    width: 100%;
-    height: 80%;
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#56CFE1,#15748f);
 }
 
-.producto-desc 
+.product-container
 {
-    width: auto;
-    height: none;
-    color: white;
-    margin-top: 5px;
-    text-align: center;
-}
-.producto-boton
-{
-    background-color: transparent;
-}
-.producto-item
-{
-    min-width: 150px;
-    background-color: #1daac8;
+    margin-top: 5%;
+    width: 20%;
     height: 50vh;
-    width: 25%;
-    border-color: black;
-    border-style:double;
+    background-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+
+.product-desc
+{
+    font-size: small;
+    font-weight: lighter;
+    color: darkgray;
+}
+
+.product-img
+{
+    width: 80%;
+    height: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-precio
+{
+    margin-top: 5%;
+    font-weight: bold;
+    color:chocolate
 }
 
 
@@ -68,6 +78,7 @@ body
     /* Fondo de mosaico patitas */
     background-image: url("../img/mosaico.png");
     background-repeat: repeat;
+    
 }
 
 a
